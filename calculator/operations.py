@@ -27,3 +27,8 @@ def divide(a, b):
     if b == 0:
         raise ValueError("Cannot divide by zero.")
     return a / b
+
+
+def power(a, b):
+    """Return the result of base 'a' raised to exponent 'b' (a ** b)."""
+    return a ** b
